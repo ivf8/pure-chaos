@@ -134,3 +134,8 @@ dist
 # React Router
 /.react-router/
 /build/
+
+# netlify
+.netlify
+
+/public/build

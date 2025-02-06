@@ -6,9 +6,11 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "serve": "netlify serve"
   },
   "dependencies": {
+    "@netlify/vite-plugin-react-router": "^1.0.0",
     "@react-router/node": "^7.1.5",
     "@react-router/serve": "^7.1.5",
     "isbot": "^5.1.17",
@@ -27,5 +29,8 @@
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
