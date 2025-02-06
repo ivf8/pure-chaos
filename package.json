@@ -1,5 +1,6 @@
 {
   "name": "pure-chaos",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -30,7 +31,21 @@
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivf8/pure-chaos.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/ivf8/pure-chaos/issues"
+  },
+  "homepage": "https://pure-chaos.netlify.app",
+  "contributors": [
+    {
+      "name": "Brian Kim",
+      "email": "bryo.kim1@gmail.com"
+    }
+  ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }
